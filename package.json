@@ -1,7 +1,7 @@
 {
   "name": "@nestgram/mongo",
   "description": "Mongoose module for Nestgram framework",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,5 +28,12 @@
   },
   "devDependencies": {
     "@types/reflect-metadata": "^0.1.0"
-  }
+  },
+  "keywords": [
+    "nest",
+    "nestgram",
+    "mongo",
+    "mongodb",
+    "mongoose"
+  ]
 }
