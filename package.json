@@ -1,0 +1,32 @@
+{
+  "name": "@nestgram/mongo",
+  "description": "Mongoose module for Nestgram framework",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Degreet <degreetpro@gmail.com>",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Degreet/nestgram-mongo.git"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "rm -rf dist && tsc"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "mongoose": "^6.3.5",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/reflect-metadata": "^0.1.0"
+  }
+}
